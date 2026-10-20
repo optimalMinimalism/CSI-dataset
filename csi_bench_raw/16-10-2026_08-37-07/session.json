@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "key": "1506fb3bde2d4579b91d99307e16da4c",
+  "session_id": "day01",
+  "strategy_id": "csi_bench_raw",
+  "created_at": "2026-10-16T08:37:07.701810Z",
+  "closed": true,
+  "labels": {
+    "participant_id": "p01",
+    "posture": "sitting",
+    "condition": "quiet",
+    "position": "desk",
+    "orientation": null,
+    "occupancy": null,
+    "activity": null,
+    "participant_notes": null,
+    "custom": {}
+  },
+  "environment": {
+    "room_id": null,
+    "environment_id": null,
+    "conditions": {},
+    "disturbances": [],
+    "notes": null
+  },
+  "device_ids": [],
+  "notes": "",
+  "directory": "csi_bench_raw/16-10-2026_08-37-07"
+}

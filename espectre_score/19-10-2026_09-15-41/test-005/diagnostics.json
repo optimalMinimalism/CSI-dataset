@@ -1,0 +1,26 @@
+{
+  "errors": [
+    {
+      "code": "cancelled",
+      "message": "Stopped by experimenter; partial data retained"
+    }
+  ],
+  "state_history": [
+    {
+      "status": "VALIDATING",
+      "at": "2026-10-19T13:31:20.698992+00:00"
+    },
+    {
+      "status": "READY",
+      "at": "2026-10-19T13:31:20.968855+00:00"
+    },
+    {
+      "status": "RECORDING",
+      "at": "2026-10-19T13:31:21.000050+00:00"
+    },
+    {
+      "status": "FINALIZING",
+      "at": "2026-10-19T13:31:25.403868+00:00"
+    }
+  ]
+}

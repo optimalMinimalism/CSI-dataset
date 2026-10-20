@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.0.0",
+  "test_id": "96c9394c54d04a05bc12753d3e99775d",
+  "session_id": "day01",
+  "session_key": "20fd2b7c09634d1ea83a6c83c9e3c43c",
+  "strategy_id": "espectre_score",
+  "strategy_version": "1.0.0",
+  "status": "CANCELLED",
+  "created_at": "2026-10-19T10:36:13.899138Z",
+  "started_at": null,
+  "ended_at": "2026-10-19T10:36:21.775005Z",
+  "requested_duration": 300.0,
+  "actual_duration": null,
+  "labels": {
+    "participant_id": "p01",
+    "posture": "sitting",
+    "condition": "quiet",
+    "position": "desk",
+    "orientation": null,
+    "occupancy": null,
+    "activity": null,
+    "participant_notes": null,
+    "custom": {}
+  },
+  "environment": {
+    "room_id": null,
+    "environment_id": null,
+    "conditions": {},
+    "disturbances": [],
+    "notes": null
+  },
+  "device": {
+    "id": "tx-A-ESPECTRE",
+    "name": "tx-a running Espectre native ",
+    "connection_type": "http",
+    "address": "http://192.168.4.2:62587/espectre/v1",
+    "strategy_ids": [],
+    "manufacturer": null,
+    "hardware_model": null,
+    "firmware_id": null,
+    "firmware_version": null,
+    "last_available": true,
+    "metadata": {
+      "last_availability_check": "2026-10-19T09:36:02.179936+00:00"
+    }
+  },
+  "radio": {
+    "band": null,
+    "channel": null,
+    "bandwidth": null,
+    "protocol": null,
+    "transmitter": null,
+    "receiver": null,
+    "metadata": {}
+  },
+  "acquisition": {
+    "strategy": "espectre_score",
+    "method": null,
+    "source": null,
+    "requested_duration": 300.0,
+    "observed_duration": null,
+    "sample_count": 0,
+    "dropped_samples": null,
+    "timestamps": {},
+    "configuration": {
+      "endpoint": "http://192.168.4.2:62587/espectre/v1"
+    },
+    "statistics": {}
+  },
+  "recordings": [
+    {
+      "id": "110176097a424f1896cda11f",
+      "type": "metadata",
+      "format": "json",
+      "path": "diagnostics.json",
+      "sha256": "e60475c58587d9ea7c01b6f2059651cd74035557445d22d730f2c614c437b3c3",
+      "size_bytes": 42,
+      "sample_count": null,
+      "time_range": null
+    },
+    {
+      "id": "b123d2c124154fa0b6bcbc18",
+      "type": "metadata",
+      "format": "json",
+      "path": "labels.json",
+      "sha256": "3bc135c9ce273c9d7bd35c557d43bfdb5e020053f9fa65160989a04f9ae3fdf0",
+      "size_bytes": 209,
+      "sample_count": null,
+      "time_range": null
+    },
+    {
+      "id": "20d6c74e6f22ebe1d5410970",
+      "type": "normalized",
+      "format": "jsonl",
+      "path": "measurements.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0,
+      "sample_count": null,
+      "time_range": null
+    },
+    {
+      "id": "423aa7a1f748d72d9dd341e7",
+      "type": "metadata",
+      "format": "log",
+      "path": "recording.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0,
+      "sample_count": null,
+      "time_range": null
+    }
+  ],
+  "references": [],
+  "notes": "",
+  "annotations": [],
+  "failure": null,
+  "provenance": {
+    "application": "CSI-LAB",
+    "application_version": "1.0.0",
+    "session_notes": "",
+    "execution": {
+      "method": "http-sse",
+      "endpoint": "http://192.168.4.2:62587/espectre/v1/events",
+      "duration_seconds": 300.0,
+      "output": "source/events.jsonl",
+      "configuration_changes": false,
+      "detector": "Record current lightweight/high_accuracy mode; preserve its identity with scores"
+    }
+  },
+  "configuration": {
+    "duration": 300.0,
+    "device_id": "tx-A-ESPECTRE",
+    "config": {
+      "endpoint": "http://192.168.4.2:62587/espectre/v1"
+    },
+    "output": {
+      "mode": "native",
+      "settings": {}
+    }
+  }
+}

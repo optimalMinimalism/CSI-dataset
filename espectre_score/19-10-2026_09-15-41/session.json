@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "key": "20fd2b7c09634d1ea83a6c83c9e3c43c",
+  "session_id": "day01",
+  "strategy_id": "espectre_score",
+  "created_at": "2026-10-19T09:15:41.467407Z",
+  "closed": false,
+  "labels": {
+    "participant_id": "p01",
+    "posture": "sitting",
+    "condition": "quiet",
+    "position": "desk",
+    "orientation": null,
+    "occupancy": null,
+    "activity": null,
+    "participant_notes": null,
+    "custom": {}
+  },
+  "environment": {
+    "room_id": null,
+    "environment_id": null,
+    "conditions": {},
+    "disturbances": [],
+    "notes": null
+  },
+  "device_ids": [],
+  "notes": "",
+  "directory": "espectre_score/19-10-2026_09-15-41"
+}

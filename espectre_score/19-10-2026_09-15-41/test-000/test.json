@@ -1,0 +1,445 @@
+{
+  "schema_version": "1.0.0",
+  "test_id": "db8add5ca2674c3ea3f385fc6ca41a47",
+  "session_id": "day01",
+  "session_key": "20fd2b7c09634d1ea83a6c83c9e3c43c",
+  "strategy_id": "espectre_score",
+  "strategy_version": "1.0.0",
+  "status": "CANCELLED",
+  "created_at": "2026-10-19T09:16:09.375872Z",
+  "started_at": "2026-10-19T09:16:14.886686Z",
+  "ended_at": "2026-10-19T09:17:29.044970Z",
+  "requested_duration": 300.0,
+  "actual_duration": 74.15817722999964,
+  "labels": {
+    "participant_id": "p01",
+    "posture": "sitting",
+    "condition": "quiet",
+    "position": "desk",
+    "orientation": null,
+    "occupancy": null,
+    "activity": null,
+    "participant_notes": null,
+    "custom": {}
+  },
+  "environment": {
+    "room_id": null,
+    "environment_id": null,
+    "conditions": {},
+    "disturbances": [],
+    "notes": null
+  },
+  "device": {
+    "id": "tx-A-ESPECTRE",
+    "name": "tx-a running Espectre native ",
+    "connection_type": "http",
+    "address": "http://192.168.4.2:62587/espectre/v1",
+    "strategy_ids": [],
+    "manufacturer": null,
+    "hardware_model": null,
+    "firmware_id": null,
+    "firmware_version": null,
+    "last_available": true,
+    "metadata": {
+      "last_availability_check": "2026-10-19T09:16:14.842645+00:00"
+    }
+  },
+  "radio": {
+    "band": null,
+    "channel": null,
+    "bandwidth": null,
+    "protocol": null,
+    "transmitter": null,
+    "receiver": null,
+    "metadata": {}
+  },
+  "acquisition": {
+    "strategy": "espectre_score",
+    "method": "http-sse",
+    "source": "http://192.168.4.2:62587/espectre/v1",
+    "requested_duration": 300.0,
+    "observed_duration": 74.15817722999964,
+    "sample_count": 580,
+    "dropped_samples": null,
+    "timestamps": {
+      "device": "uptime_ms",
+      "host": "received_utc",
+      "synchronized": null
+    },
+    "configuration": {
+      "endpoint": "http://192.168.4.2:62587/espectre/v1"
+    },
+    "statistics": {
+      "process_exit_code": null,
+      "source_rows": 292,
+      "recorder_end": {
+        "kind": "end",
+        "motion_events": 290,
+        "interrupted": true,
+        "error": null,
+        "finished_utc": "2026-10-19T09:17:29.012739+00:00"
+      },
+      "detector": "lightweight",
+      "collector": "builtin"
+    }
+  },
+  "recordings": [
+    {
+      "id": "110176097a424f1896cda11f",
+      "type": "metadata",
+      "format": "json",
+      "path": "diagnostics.json",
+      "sha256": "f55a9a9e30d713f6318a4b914bc183772a360ccc19b2ce9fbd6b07613fa9b3e2",
+      "size_bytes": 506,
+      "sample_count": null,
+      "time_range": null
+    },
+    {
+      "id": "b123d2c124154fa0b6bcbc18",
+      "type": "metadata",
+      "format": "json",
+      "path": "labels.json",
+      "sha256": "3bc135c9ce273c9d7bd35c557d43bfdb5e020053f9fa65160989a04f9ae3fdf0",
+      "size_bytes": 209,
+      "sample_count": null,
+      "time_range": null
+    },
+    {
+      "id": "20d6c74e6f22ebe1d5410970",
+      "type": "normalized",
+      "format": "jsonl",
+      "path": "measurements.jsonl",
+      "sha256": "f5959167cfc8c286587f3e0d55d7e1ea83df801e9b64ce2511c9e9b22c70acc0",
+      "size_bytes": 380416,
+      "sample_count": null,
+      "time_range": null
+    },
+    {
+      "id": "423aa7a1f748d72d9dd341e7",
+      "type": "metadata",
+      "format": "log",
+      "path": "recording.log",
+      "sha256": "e4faa18fca436c2f19c836da1f03ea7f74df0cc3d7324b13bdeeb75d039d489f",
+      "size_bytes": 168,
+      "sample_count": null,
+      "time_range": null
+    },
+    {
+      "id": "7d665a846fbb18fd8aa51423",
+      "type": "source",
+      "format": "jsonl",
+      "path": "source/events.jsonl",
+      "sha256": "1588195f0889e335d76c39c504317c73e90b3de22707e6e9148b86877759cac5",
+      "size_bytes": 61517,
+      "sample_count": null,
+      "time_range": null
+    }
+  ],
+  "references": [],
+  "notes": "",
+  "annotations": [],
+  "failure": {
+    "code": "cancelled",
+    "message": "Stopped by experimenter; partial data retained"
+  },
+  "provenance": {
+    "application": "CSI-LAB",
+    "application_version": "1.0.0",
+    "session_notes": "",
+    "execution": {
+      "method": "http-sse",
+      "endpoint": "http://192.168.4.2:62587/espectre/v1/events",
+      "duration_seconds": 300.0,
+      "output": "source/events.jsonl",
+      "configuration_changes": false,
+      "detector": "Record current lightweight/high_accuracy mode; preserve its identity with scores"
+    },
+    "adapter_device_metadata": {
+      "source_session": {
+        "kind": "session",
+        "created_utc": "2026-10-19T09:16:14.917189+00:00",
+        "endpoint": "http://192.168.4.2:62587/espectre/v1",
+        "participant": "p01",
+        "session_id": "day01",
+        "labels": {
+          "participant_id": "p01",
+          "posture": "sitting",
+          "condition": "quiet",
+          "position": "desk",
+          "orientation": null,
+          "occupancy": null,
+          "activity": null,
+          "participant_notes": null,
+          "custom": {}
+        },
+        "metadata": {
+          "device": {
+            "device_id": "07e0bce6e441b3eb",
+            "name": "ESPectre C5 41b3eb",
+            "label": "",
+            "frontend": "native",
+            "firmware": "0.0.0",
+            "chip": "esp32c5",
+            "csi_profile": "ht20"
+          },
+          "sensing": {
+            "enabled": true,
+            "ready": true,
+            "calibrating": false,
+            "mode": "sensing",
+            "derived_events_paused": false,
+            "detector": "lightweight",
+            "threshold": 0.095013,
+            "motion_on_hits": 4,
+            "motion_off_hits": 3,
+            "traffic_generator_mode": "ping",
+            "csi_target_pps": 100,
+            "csi_traffic_udp_port": 5555,
+            "csi_traffic_multicast_group": "239.255.0.1"
+          },
+          "capabilities": {
+            "protocol_version": "1.0",
+            "operations": [
+              {
+                "name": "read_diagnostics",
+                "method": "GET",
+                "path": "/espectre/v1/diagnostics"
+              },
+              {
+                "name": "update_device",
+                "method": "PATCH",
+                "path": "/espectre/v1/device"
+              },
+              {
+                "name": "update_sensing",
+                "method": "PATCH",
+                "path": "/espectre/v1/sensing"
+              },
+              {
+                "name": "update_mqtt",
+                "method": "PATCH",
+                "path": "/espectre/v1/mqtt"
+              },
+              {
+                "name": "recalibrate",
+                "method": "POST",
+                "path": "/espectre/v1/sensing/calibrations"
+              },
+              {
+                "name": "scan_wifi",
+                "method": "POST",
+                "path": "/espectre/v1/wifi/scans"
+              },
+              {
+                "name": "set_wifi_bssid",
+                "method": "PUT",
+                "path": "/espectre/v1/wifi/bssid"
+              },
+              {
+                "name": "clear_wifi_bssid",
+                "method": "DELETE",
+                "path": "/espectre/v1/wifi/bssid"
+              },
+              {
+                "name": "clear_wifi_credentials",
+                "method": "DELETE",
+                "path": "/espectre/v1/wifi/credentials"
+              },
+              {
+                "name": "clear_mqtt",
+                "method": "DELETE",
+                "path": "/espectre/v1/mqtt"
+              },
+              {
+                "name": "check_ota",
+                "method": "POST",
+                "path": "/espectre/v1/ota/checks"
+              },
+              {
+                "name": "start_ota",
+                "method": "POST",
+                "path": "/espectre/v1/ota/updates"
+              }
+            ],
+            "events": [
+              "motion",
+              "health",
+              "device",
+              "sensing",
+              "wifi",
+              "fault",
+              "ota"
+            ],
+            "resources": [
+              "health",
+              "device",
+              "capabilities",
+              "sensing",
+              "wifi",
+              "wifi/access-points",
+              "mqtt",
+              "diagnostics",
+              "devices",
+              "ota"
+            ],
+            "features": {
+              "csi": true
+            },
+            "csi": {
+              "endpoint": "/espectre/v1/csi",
+              "transport": "http",
+              "protocol_version": 1,
+              "record_version": 8,
+              "frame_prefix_bytes": 60,
+              "queue_depth": 16,
+              "batch_records": 4,
+              "traffic_udp_port": 5555,
+              "traffic_multicast_group": "239.255.0.1",
+              "marker": "\ud83d\udc7b"
+            }
+          }
+        },
+        "collector": "csi_lab_builtin",
+        "notes": ""
+      },
+      "connectivity_snapshot": {
+        "device": {
+          "device_id": "07e0bce6e441b3eb",
+          "name": "ESPectre C5 41b3eb",
+          "label": "",
+          "frontend": "native",
+          "firmware": "0.0.0",
+          "chip": "esp32c5",
+          "csi_profile": "ht20"
+        },
+        "sensing": {
+          "enabled": true,
+          "ready": true,
+          "calibrating": false,
+          "mode": "sensing",
+          "derived_events_paused": false,
+          "detector": "lightweight",
+          "threshold": 0.095013,
+          "motion_on_hits": 4,
+          "motion_off_hits": 3,
+          "traffic_generator_mode": "ping",
+          "csi_target_pps": 100,
+          "csi_traffic_udp_port": 5555,
+          "csi_traffic_multicast_group": "239.255.0.1"
+        },
+        "capabilities": {
+          "protocol_version": "1.0",
+          "operations": [
+            {
+              "name": "read_diagnostics",
+              "method": "GET",
+              "path": "/espectre/v1/diagnostics"
+            },
+            {
+              "name": "update_device",
+              "method": "PATCH",
+              "path": "/espectre/v1/device"
+            },
+            {
+              "name": "update_sensing",
+              "method": "PATCH",
+              "path": "/espectre/v1/sensing"
+            },
+            {
+              "name": "update_mqtt",
+              "method": "PATCH",
+              "path": "/espectre/v1/mqtt"
+            },
+            {
+              "name": "recalibrate",
+              "method": "POST",
+              "path": "/espectre/v1/sensing/calibrations"
+            },
+            {
+              "name": "scan_wifi",
+              "method": "POST",
+              "path": "/espectre/v1/wifi/scans"
+            },
+            {
+              "name": "set_wifi_bssid",
+              "method": "PUT",
+              "path": "/espectre/v1/wifi/bssid"
+            },
+            {
+              "name": "clear_wifi_bssid",
+              "method": "DELETE",
+              "path": "/espectre/v1/wifi/bssid"
+            },
+            {
+              "name": "clear_wifi_credentials",
+              "method": "DELETE",
+              "path": "/espectre/v1/wifi/credentials"
+            },
+            {
+              "name": "clear_mqtt",
+              "method": "DELETE",
+              "path": "/espectre/v1/mqtt"
+            },
+            {
+              "name": "check_ota",
+              "method": "POST",
+              "path": "/espectre/v1/ota/checks"
+            },
+            {
+              "name": "start_ota",
+              "method": "POST",
+              "path": "/espectre/v1/ota/updates"
+            }
+          ],
+          "events": [
+            "motion",
+            "health",
+            "device",
+            "sensing",
+            "wifi",
+            "fault",
+            "ota"
+          ],
+          "resources": [
+            "health",
+            "device",
+            "capabilities",
+            "sensing",
+            "wifi",
+            "wifi/access-points",
+            "mqtt",
+            "diagnostics",
+            "devices",
+            "ota"
+          ],
+          "features": {
+            "csi": true
+          },
+          "csi": {
+            "endpoint": "/espectre/v1/csi",
+            "transport": "http",
+            "protocol_version": 1,
+            "record_version": 8,
+            "frame_prefix_bytes": 60,
+            "queue_depth": 16,
+            "batch_records": 4,
+            "traffic_udp_port": 5555,
+            "traffic_multicast_group": "239.255.0.1",
+            "marker": "\ud83d\udc7b"
+          }
+        }
+      }
+    }
+  },
+  "configuration": {
+    "duration": 300.0,
+    "device_id": "tx-A-ESPECTRE",
+    "config": {
+      "endpoint": "http://192.168.4.2:62587/espectre/v1"
+    },
+    "output": {
+      "mode": "native",
+      "settings": {}
+    }
+  }
+}

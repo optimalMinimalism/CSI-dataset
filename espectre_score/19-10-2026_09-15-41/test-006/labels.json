@@ -1,0 +1,11 @@
+{
+  "participant_id": "p01",
+  "posture": "sitting",
+  "condition": "quiet",
+  "position": "desk",
+  "orientation": null,
+  "occupancy": null,
+  "activity": null,
+  "participant_notes": null,
+  "custom": {}
+}

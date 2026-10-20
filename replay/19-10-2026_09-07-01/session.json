@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "key": "151063767d3545c3a901bd4e6e7c5a02",
+  "session_id": "day01-espectre",
+  "strategy_id": "replay",
+  "created_at": "2026-10-19T09:07:01.180549Z",
+  "closed": true,
+  "labels": {
+    "participant_id": "p01",
+    "posture": "sitting",
+    "condition": "quiet",
+    "position": "desk",
+    "orientation": null,
+    "occupancy": null,
+    "activity": null,
+    "participant_notes": null,
+    "custom": {}
+  },
+  "environment": {
+    "room_id": null,
+    "environment_id": null,
+    "conditions": {},
+    "disturbances": [],
+    "notes": null
+  },
+  "device_ids": [],
+  "notes": "",
+  "directory": "replay/19-10-2026_09-07-01"
+}

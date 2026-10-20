@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "key": "2755b0bcd6f84f2c9aa04b2389d84beb",
+  "session_id": "day01",
+  "strategy_id": "mock",
+  "created_at": "2026-10-16T08:47:07.452691Z",
+  "closed": true,
+  "labels": {
+    "participant_id": "p01",
+    "posture": "sitting",
+    "condition": "quiet",
+    "position": "desk",
+    "orientation": null,
+    "occupancy": null,
+    "activity": null,
+    "participant_notes": null,
+    "custom": {}
+  },
+  "environment": {
+    "room_id": null,
+    "environment_id": null,
+    "conditions": {},
+    "disturbances": [],
+    "notes": null
+  },
+  "device_ids": [],
+  "notes": "",
+  "directory": "mock/16-10-2026_08-47-07"
+}

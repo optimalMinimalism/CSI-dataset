@@ -1,0 +1,154 @@
+{
+  "schema_version": "1.0.0",
+  "test_id": "9988a5b1a9964d4cbb531c195f267907",
+  "session_id": "day01-espectre",
+  "session_key": "151063767d3545c3a901bd4e6e7c5a02",
+  "strategy_id": "replay",
+  "strategy_version": "1.0.0",
+  "status": "COMPLETED",
+  "created_at": "2026-10-19T09:07:23.460918Z",
+  "started_at": "2026-10-19T09:07:35.155539Z",
+  "ended_at": "2026-10-19T09:07:35.323767Z",
+  "requested_duration": 300.0,
+  "actual_duration": 0.1680825690000347,
+  "labels": {
+    "participant_id": "p01",
+    "posture": "sitting",
+    "condition": "movement",
+    "position": "desk",
+    "orientation": null,
+    "occupancy": null,
+    "activity": null,
+    "participant_notes": null,
+    "custom": {}
+  },
+  "environment": {
+    "room_id": null,
+    "environment_id": null,
+    "conditions": {},
+    "disturbances": [],
+    "notes": null
+  },
+  "device": {
+    "id": "tx-A-ESPECTRE",
+    "name": "tx-a running Espectre native ",
+    "connection_type": "http",
+    "address": "http://192.168.4.2:62587/espectre/v1",
+    "strategy_ids": [],
+    "manufacturer": null,
+    "hardware_model": null,
+    "firmware_id": null,
+    "firmware_version": null,
+    "last_available": null,
+    "metadata": {}
+  },
+  "radio": {
+    "band": null,
+    "channel": null,
+    "bandwidth": null,
+    "protocol": null,
+    "transmitter": null,
+    "receiver": null,
+    "metadata": {}
+  },
+  "acquisition": {
+    "strategy": "replay",
+    "method": "file-replay",
+    "source": "demo",
+    "requested_duration": 300.0,
+    "observed_duration": 0.1680825690000347,
+    "sample_count": 2,
+    "dropped_samples": null,
+    "timestamps": {},
+    "configuration": {
+      "recording": "demo",
+      "interval_seconds": 0.05
+    },
+    "statistics": {
+      "replayed_measurements": 2,
+      "binary_recording_id_mapping": {}
+    }
+  },
+  "recordings": [
+    {
+      "id": "110176097a424f1896cda11f",
+      "type": "metadata",
+      "format": "json",
+      "path": "diagnostics.json",
+      "sha256": "50721797daa4b68a36dac8e8ab9027371b6db3199487860d0454eada53372d97",
+      "size_bytes": 398,
+      "sample_count": null,
+      "time_range": null
+    },
+    {
+      "id": "b123d2c124154fa0b6bcbc18",
+      "type": "metadata",
+      "format": "json",
+      "path": "labels.json",
+      "sha256": "b0c84ef6fa8ea46053dd624aba5d160185411669a5a8683a63de27c1ff040d83",
+      "size_bytes": 212,
+      "sample_count": null,
+      "time_range": null
+    },
+    {
+      "id": "20d6c74e6f22ebe1d5410970",
+      "type": "normalized",
+      "format": "jsonl",
+      "path": "measurements.jsonl",
+      "sha256": "b9189e044893f5a2fd0726cf252561f60df7b153df5fe8b48ca860bd83f13545",
+      "size_bytes": 925,
+      "sample_count": null,
+      "time_range": null
+    },
+    {
+      "id": "423aa7a1f748d72d9dd341e7",
+      "type": "metadata",
+      "format": "log",
+      "path": "recording.log",
+      "sha256": "9fa817e22ba8d8a27e9ba16e54441758d2f1da87bbb86912ce02422e40f24a6c",
+      "size_bytes": 86,
+      "sample_count": null,
+      "time_range": null
+    },
+    {
+      "id": "2a16ea8625186f9c1a8decf7",
+      "type": "source",
+      "format": "jsonl",
+      "path": "source/original-recording.jsonl",
+      "sha256": "7b5ee26f00430860c75718355890fb970e08ee0ac058050a42192b0bc1f853f9",
+      "size_bytes": 777,
+      "sample_count": null,
+      "time_range": null
+    }
+  ],
+  "references": [],
+  "notes": "",
+  "annotations": [],
+  "failure": null,
+  "provenance": {
+    "application": "CSI-LAB",
+    "application_version": "1.0.0",
+    "session_notes": "",
+    "execution": {
+      "method": "file-replay",
+      "source_id": "demo",
+      "configuration": {
+        "recording": "demo",
+        "interval_seconds": 0.05
+      },
+      "timestamp_policy": "Preserve original host/device timestamps; replay receive time is separate metadata"
+    }
+  },
+  "configuration": {
+    "duration": 300.0,
+    "device_id": "tx-A-ESPECTRE",
+    "config": {
+      "recording": "demo",
+      "interval_seconds": 0.05
+    },
+    "output": {
+      "mode": "native",
+      "settings": {}
+    }
+  }
+}
